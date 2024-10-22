@@ -1,0 +1,15 @@
+:root{
+  --primary-color: #42455c;
+  --secondary-color:hsl(235, 21%, 23%);
+  --text-color:#f0f1fa;
+}
+
+body{
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+.layout{
+  display: flex;
+}

@@ -1,0 +1,24 @@
+.sidebar{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    height: 100vh;
+    width: fit-content;
+    overflow-y: auto;
+  }
+  .sidebar ul{
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 0.6rem;
+    padding-left: 0;
+  }
+  .sidebar ul li a{ 
+    display: block;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  .sidebar ul li:hover{
+    background-color: var(--primary-color);
+  }
+  .sidebar ul li a.active{
+    background-color: var(--primary-color);
+  }
