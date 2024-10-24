@@ -12,8 +12,8 @@ function App() {
     return(
        <Router>
         <div className='layout'>
-                <Sidebar />
             <div className='content'>
+            <Sidebar />
                 <Routes>
                     <Route path='/' element={<Home />} /> 
                     <Route path='/calendar' element={<Calendar />} /> 

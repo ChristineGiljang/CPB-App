@@ -10,6 +10,7 @@ body{
   margin: 0;
   padding: 0;
 }
-.layout{
-  display: flex;
+.content{
+  width: 100%;
+  position: relative;
 }

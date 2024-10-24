@@ -4,6 +4,7 @@
     height: 100vh;
     width: fit-content;
     overflow-y: auto;
+    position: absolute;
   }
   .sidebar ul{
     list-style-type: none;
